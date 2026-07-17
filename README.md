@@ -29,7 +29,7 @@ A modern and responsive **Smart To-Do List** web application built using **HTML,
 ## 📂 Project Structure
 
 ```
-Smart-ToDo/
+/
 │── index.html
 │── style.css
 │── script.js
