@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do List</title>
+</head>
+
+<body>
+    <div class='background-circle circle1'></div>
+    <div class='background-circle circle2'></div>
+    <header>
+
+        <div class="navbar">
+            <h1>Smart To-Do List 📝</h1>
+            <p>Your productivity companion</p>
+            <div class="theme-switch" id="themeBtn">
+
+                <span class="moon">🌙</span>
+
+                <span class="sun">☀️</span>
+
+                <div class="slider"></div>
+
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="task">
+            <div class="input1">
+                <input id="taskInput" type="text" placeholder="Add a new task...">
+                <button id="addBtn">+</button>
+            </div>
+        </div>
+
+        <div class="content">
+            <ul id="taskList">
+
+            </ul>
+
+
+        </div>
+
+
+        <div class="bottom">
+            <div class="stats">
+                <p>Remaining : <span id="remaining">0</span></p>
+                <p>Total : <span id="total">0</span></p>
+            </div>
+            <div class="filters">
+                <button>All</button>
+                <button>Active</button>
+                <button>Completed</button>
+            </div>
+        </div>
+
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
